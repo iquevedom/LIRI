@@ -1,10 +1,12 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Language Interpretation and Recognition Interface",
   "main": "index.js",
   "dependencies": {
+    "Express": "^3.0.1",
     "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
     "dotenv": "^8.0.0",
     "moment": "^2.24.0"
   },
@@ -17,7 +19,7 @@
     "url": "git+https://github.com/iquevedom/liri-node-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Isidro Quevedo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iquevedom/liri-node-app/issues"
