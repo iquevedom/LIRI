@@ -62,7 +62,12 @@ function venue(selection) {
                 console.log("Name    : ", response.data[i].venue.name);
                 console.log("Date    : ", moment(response.data[i].datetime).format("MM/DD/YYYY"), "\n");
             };
-        });
+        })
+        .catch(function (error) {
+            // Fail BandsInTown API response
+            console.log("An error has ocurred : ", err);
+          });
+        return;
 };
 
 // Movie API call to to IMDB website and display of information
@@ -104,8 +109,12 @@ function movie(selection) {
         console.log("Actors            : ",response.data.Actors); 
         console.log("Plot              : ",response.data.Plot, "\n"); 
         console.log("\n **** End **** \n");
-        });
-
+        })
+        .catch(function (error) {
+            // Fail OMDB API response
+            console.log("An error has ocurred : ", err);
+          });
+        return;
 }
 
 function music(selection) {
@@ -129,7 +138,8 @@ function music(selection) {
     })
     .catch(function(err) {
       // Fail spotify API response
-      return console.log("An error has ocurred : ", err)
+      console.log("An error has ocurred : ", err);
+      return;
     });
 
 }
