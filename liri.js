@@ -67,11 +67,17 @@ function venue(selection) {
 
 // Movie API call to to IMDB website and display of information
 function movie(selection) {
+
+    // Empty user song selection, then searches default
+    if (!selection) {
+        selection = "Mr. Nobody"
+    };
+
     // Splits movie name into an array
     var movieArray = selection.split(" ");
     var movieSearch = "";
     
-    // Adds "+" to the string for the OMDB API
+    // Adds "+" to the string for the IMDB API
     for (let i = 0; i < movieArray.length; i++) {
         if (i < (movieArray.length - 1)) {
             movieSearch += movieArray[i] + "+";
@@ -104,10 +110,17 @@ function movie(selection) {
 
 function music(selection) {
 
-    /// Spotify API call with string 'selection'
+    // Empty user song selection, then searches default
+    if (!selection) {
+        selection = "The Sign Ace of Base"
+    };
+
+    /// Spotify API call with string 'selection' limited to 1 song (can may be several)
     spotify
     .search({ type: 'track', query: selection, limit : 1 })
     .then(function(response) {
+
+       // Successful spotify API response
        console.log("Album           : ",response.tracks.items[0].album.name); 
        console.log("Song            : ",response.tracks.items[0].name);
        console.log("Artist(s)       : ",response.tracks.items[0].artists[0].name);  
@@ -115,7 +128,8 @@ function music(selection) {
        console.log("Preview url     : ",response.tracks.items[0].preview_url);
     })
     .catch(function(err) {
-      console.log(err);
+      // Fail spotify API response
+      return console.log("An error has ocurred : ", err)
     });
 
 }
