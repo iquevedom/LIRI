@@ -8,6 +8,8 @@ var inquirer = require("inquirer");
 var axios = require("axios");
 var fs = require("fs");
 
+var logText = "";
+
 // MAIN MENU : User selection prompt.
 inquirer
     .prompt([
@@ -62,13 +64,22 @@ function venue(selection) {
     axios.get(urlVenue).then(
         function (response) {
             // If the axios was successful...   
-            console.log("\n", selection, "Events-----\n")
-            for (let i = 0; i < response.data.length; i++) {
+            writeLog("\n\n----"+selection+" Events ---\n");
+            console.log("\n", selection, "The most recent event will be-----\n")
+             for (let i = 0; i < response.data.length; i++) {
                 console.log("Country : ", response.data[i].venue.country);
                 console.log("City    : ", response.data[i].venue.city);
                 console.log("Name    : ", response.data[i].venue.name);
                 console.log("Date    : ", moment(response.data[i].datetime).format("MM/DD/YYYY"), "\n");
+                writeLog(logText = (
+                    "\n-----Events-----\n "+
+                    "Country : "+ response.data[i].venue.country+ " \n"+
+                    "City    : "+ response.data[i].venue.city+ " \n"+
+                    "Name    : "+ response.data[i].venue.name+ " \n"+
+                    "Date    : "+ moment(response.data[i].datetime).format("MM/DD/YYYY"+ " \n")
+                ));
             };
+
         })
         .catch(function (error) {
             // Fail BandsInTown API response
@@ -117,6 +128,20 @@ function movie(selection) {
         console.log("Actors            : ",response.data.Actors); 
         console.log("Plot              : ",response.data.Plot, "\n"); 
         console.log("\n **** End **** \n");
+
+        
+        writeLog(logText = (
+            "\n **** Movie Information **** \n"+
+            "Title             : "+ response.data.Title+ " \n"+
+            "Year              : "+ response.data.Yea+ " \n"+
+            "IMDB Rating       : "+ response.data.Ratings[0].Value+ " \n"+
+            "R Tomatoes Rating : "+ response.data.Ratings[1].Value + " \n"+
+            "Country           : "+ response.data.Country+ " \n"+
+            "Language          : "+ response.data.Language+ " \n"+
+            "Actors            : "+ response.data.Actors+ " \n"+
+            "Plot              : "+ response.data.Plot+ " \n"
+        ));
+
         })
         .catch(function (error) {
             // Fail OMDB API response
@@ -144,6 +169,16 @@ function music(selection) {
        console.log("Artist(s)       : ",response.tracks.items[0].artists[0].name);  
        console.log("Date released   : ",response.tracks.items[0].album.release_date); 
        console.log("Preview url     : ",response.tracks.items[0].preview_url);
+
+       writeLog(logText = (
+        "\n **** Song Information **** \n"+
+        "Album           : "+ response.tracks.items[0].album.name+ " \n"+
+        "Song            : "+ response.tracks.items[0].name+ " \n"+
+        "Artist(s)       : "+ response.tracks.items[0].artists[0].name+ " \n"+
+        "Date released   : "+ response.tracks.items[0].album.release_date + " \n"+
+        "Preview url     : "+ response.tracks.items[0].preview_url+ " \n"
+    ));
+
        return;
     })
     .catch(function(err) {
@@ -161,4 +196,11 @@ function defaultSong() {
         music(song[1]);
         return;
       });
+}
+
+function writeLog(stringWrite) {
+fs.appendFile("log.txt", stringWrite, function (err){
+    if (err) throw err;
+})
+return;
 }
