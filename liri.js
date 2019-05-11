@@ -6,6 +6,7 @@ var spotify = new Spotify(keys.spotify);
 var moment = require("moment");
 var inquirer = require("inquirer");
 var axios = require("axios");
+var fs = require("fs");
 
 // MAIN MENU : User selection prompt.
 inquirer
@@ -43,7 +44,7 @@ inquirer
                 /*   movies(selection); */
                 break;
             case "do-what-it-says":
-                /*   random(selection); */
+                defaultSong();
                 break;
             // There´s no default selection
         }
@@ -51,6 +52,12 @@ inquirer
 
 // Venue API call to Bands In Town website and display of information
 function venue(selection) {
+
+    // Empty user song selection, then searches default
+    if (!selection) {
+        selection = "Phil Collins"
+    };
+
     var urlVenue = "https://rest.bandsintown.com/artists/" + selection + "/events?app_id=codingbootcamp";
     axios.get(urlVenue).then(
         function (response) {
@@ -66,6 +73,7 @@ function venue(selection) {
         .catch(function (error) {
             // Fail BandsInTown API response
             console.log("An error has ocurred : ", err);
+            return;
           });
         return;
 };
@@ -113,6 +121,7 @@ function movie(selection) {
         .catch(function (error) {
             // Fail OMDB API response
             console.log("An error has ocurred : ", err);
+            return;
           });
         return;
 }
@@ -135,6 +144,7 @@ function music(selection) {
        console.log("Artist(s)       : ",response.tracks.items[0].artists[0].name);  
        console.log("Date released   : ",response.tracks.items[0].album.release_date); 
        console.log("Preview url     : ",response.tracks.items[0].preview_url);
+       return;
     })
     .catch(function(err) {
       // Fail spotify API response
@@ -142,4 +152,13 @@ function music(selection) {
       return;
     });
 
+}
+
+function defaultSong() {
+    fs.readFile('random.txt', "utf8", (err, data) => {
+        if (err) throw err;
+        var song = data.split(",");
+        music(song[1]);
+        return;
+      });
 }
