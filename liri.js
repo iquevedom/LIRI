@@ -1,17 +1,13 @@
 // Packages load
 require("dotenv").config();
+var Spotify = require('node-spotify-api');
 var keys = require("./keys.js");
-//var spotify = new Spotify(keys.spotify);
-
+var spotify = new Spotify(keys.spotify);
 var moment = require("moment");
 var inquirer = require("inquirer");
 var axios = require("axios");
 
-var option = process.argv[2];
-var selection = process.argv[3];
-
-
-// User selection prompt.
+// MAIN MENU : User selection prompt.
 inquirer
     .prompt([
         // User selection action.
@@ -31,7 +27,7 @@ inquirer
     .then(function (inquirerResponse) {
         // If the inquirerResponse confirms, we displays the inquirerResponse's username and pokemon from the answers.
 
-        // Main body
+        // Case for respond user choice
         switch (inquirerResponse.userSelection) {
             // Venue selection
             case "concert-this":
@@ -39,7 +35,7 @@ inquirer
                 break;
             // Music selection
             case "spotify-this-song":
-                /*       musica(selection); */
+                music(inquirerResponse.userSearch);
                 break;
             // Movie selection
             case "movie-this":
@@ -58,7 +54,7 @@ function venue(selection) {
     var urlVenue = "https://rest.bandsintown.com/artists/" + selection + "/events?app_id=codingbootcamp";
     axios.get(urlVenue).then(
         function (response) {
-            // If the axios was successful...
+            // If the axios was successful...   
             console.log("\n", selection, "Events-----\n")
             for (let i = 0; i < response.data.length; i++) {
                 console.log("Country : ", response.data[i].venue.country);
@@ -93,15 +89,33 @@ function movie(selection) {
 
         // Display movie details
         console.log("\n **** Movie Information **** \n");
-        console.log("Title             :",response.data.Title); 
-        console.log("Year              :",response.data.Year); 
-        console.log("IMDB Rating       :",response.data.Ratings[0].Value); 
-        console.log("R Tomatoes Rating :",response.data.Ratings[1].Value); 
-        console.log("Country           :",response.data.Country); 
-        console.log("Language          :",response.data.Language); 
-        console.log("Actors            :",response.data.Actors); 
-        console.log("Plot              :",response.data.Plot, "\n"); 
+        console.log("Title             : ",response.data.Title); 
+        console.log("Year              : ",response.data.Year); 
+        console.log("IMDB Rating       : ",response.data.Ratings[0].Value); 
+        console.log("R Tomatoes Rating : ",response.data.Ratings[1].Value); 
+        console.log("Country           : ",response.data.Country); 
+        console.log("Language          : ",response.data.Language); 
+        console.log("Actors            : ",response.data.Actors); 
+        console.log("Plot              : ",response.data.Plot, "\n"); 
         console.log("\n **** End **** \n");
         });
+
+}
+
+function music(selection) {
+
+    /// Spotify API call with string 'selection'
+    spotify
+    .search({ type: 'track', query: selection, limit : 1 })
+    .then(function(response) {
+       console.log("Album           : ",response.tracks.items[0].album.name); 
+       console.log("Song            : ",response.tracks.items[0].name);
+       console.log("Artist(s)       : ",response.tracks.items[0].artists[0].name);  
+       console.log("Date released   : ",response.tracks.items[0].album.release_date); 
+       console.log("Preview url     : ",response.tracks.items[0].preview_url);
+    })
+    .catch(function(err) {
+      console.log(err);
+    });
 
 }
