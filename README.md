@@ -52,7 +52,8 @@ SPOTIFY_SECRET=your-spotify-secret  ---> _client secret_
      - dotenv
      - inquirer,
      - node-spotify-api
-     - axios.
+     - axios
+     - [ScreenToGif - Editor.](https://www.screentogif.com/)
 
 ## Future code development
 
