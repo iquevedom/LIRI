@@ -44,16 +44,16 @@ SPOTIFY_SECRET=your-spotify-secret  ---> _client secret_
 
 ## Technologies used to build app
 
-   - [Node.js](https://nodejs.org/en/)
-   - [Javascript](https://www.w3schools.com/js/default.asp)
+   - [Node.js,](https://nodejs.org/en/)
+   - [Javascript,](https://www.w3schools.com/js/default.asp)
+   - [ScreenToGif - Editor,](https://www.screentogif.com/)
    - API's : Bands In Town, OMDB, Spotify
    - Node Packages :
      - moment
      - dotenv
      - inquirer,
      - node-spotify-api
-     - axios
-     - [ScreenToGif - Editor.](https://www.screentogif.com/)
+     - axios.
 
 ## Future code development
 
