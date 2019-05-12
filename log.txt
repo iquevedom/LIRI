@@ -1,0 +1,617 @@
+
+
+----Ariana Grande Events ---
+
+-----Events-----
+ Country : United States 
+City    : Phoenix 
+Name    : Talking Stick Resort Arena 
+Date    : 05/14/2019 
+-----Events-----
+ Country : United States 
+City    : Houston 
+Name    : Toyota Center 
+Date    : 05/19/2019 
+-----Events-----
+ Country : United States 
+City    : San Antonio 
+Name    : AT&T Center 
+Date    : 05/17/2019 
+-----Events-----
+ Country : United States 
+City    : Dallas 
+Name    : American Airlines Center 
+Date    : 05/21/2019 
+-----Events-----
+ Country : United States 
+City    : Oklahoma City 
+Name    : Chesapeake Energy Arena 
+Date    : 05/23/2019 
+-----Events-----
+ Country : United States 
+City    : New Orleans 
+Name    : Smoothie King Center 
+Date    : 05/25/2019 
+-----Events-----
+ Country : United States 
+City    : Orlando 
+Name    : Amway Center 
+Date    : 05/29/2019 
+-----Events-----
+ Country : United States 
+City    : Miami 
+Name    : American Airlines Arena 
+Date    : 05/31/2019 
+-----Events-----
+ Country : United States 
+City    : Miami 
+Name    : American Airlines Arena 
+Date    : 06/01/2019 
+-----Events-----
+ Country : United States 
+City    : Chicago 
+Name    : United Center 
+Date    : 06/04/2019 
+-----Events-----
+ Country : United States 
+City    : Chicago 
+Name    : United Center 
+Date    : 06/05/2019 
+-----Events-----
+ Country : United States 
+City    : Nashville 
+Name    : Bridgestone Arena 
+Date    : 06/07/2019 
+-----Events-----
+ Country : United States 
+City    : Atlanta 
+Name    : State Farm Arena 
+Date    : 06/08/2019 
+-----Events-----
+ Country : United States 
+City    : Charlotte 
+Name    : Spectrum Center 
+Date    : 06/10/2019 
+-----Events-----
+ Country : United States 
+City    : Pittsburgh 
+Name    : PPG Paints Arena 
+Date    : 06/12/2019 
+-----Events-----
+ Country : United States 
+City    : Brooklyn 
+Name    : Barclays Center 
+Date    : 06/14/2019 
+-----Events-----
+ Country : United States 
+City    : Brooklyn 
+Name    : Barclays Center 
+Date    : 06/15/2019 
+-----Events-----
+ Country : United States 
+City    : New York 
+Name    : Madison Square Garden 
+Date    : 06/18/2019 
+-----Events-----
+ Country : United States 
+City    : New York 
+Name    : Madison Square Garden 
+Date    : 06/19/2019 
+-----Events-----
+ Country : United States 
+City    : Washington 
+Name    : Capital One Arena 
+Date    : 06/21/2019 
+-----Events-----
+ Country : United States 
+City    : Boston 
+Name    : TD Garden 
+Date    : 06/22/2019 
+-----Events-----
+ Country : United States 
+City    : Philadelphia 
+Name    : Wells Fargo Center 
+Date    : 06/24/2019 
+-----Events-----
+ Country : Canada 
+City    : Toronto 
+Name    : Scotiabank Arena 
+Date    : 06/26/2019 
+-----Events-----
+ Country : United States 
+City    : Indianapolis 
+Name    : Bankers Life Fieldhouse 
+Date    : 06/29/2019 
+-----Events-----
+ Country : United States 
+City    : Columbus 
+Name    : The Schottenstein Center 
+Date    : 07/01/2019 
+-----Events-----
+ Country : United States 
+City    : Milwaukee 
+Name    : Fiserv Forum 
+Date    : 07/05/2019 
+-----Events-----
+ Country : United States 
+City    : St. Louis 
+Name    : Enterprise Center 
+Date    : 07/06/2019 
+-----Events-----
+ Country : United States 
+City    : St Paul 
+Name    : Xcel Energy Center 
+Date    : 07/08/2019 
+-----Events-----
+ Country : United States 
+City    : Denver 
+Name    : Pepsi Center 
+Date    : 07/11/2019 
+-----Events-----
+ Country : United States 
+City    : Salt Lake City 
+Name    : Vivint Smart Home Arena 
+Date    : 07/13/2019 
+-----Events-----
+ Country : United States 
+City    : Chicago 
+Name    : Grant Park 
+Date    : 08/03/2019 
+-----Events-----
+ Country : United States 
+City    : Chicago 
+Name    : Lollapalooza 
+Date    : 08/04/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : London 
+Name    : The O2 Arena 
+Date    : 08/17/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : London 
+Name    : The O2 
+Date    : 08/19/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : London 
+Name    : The O2 Arena 
+Date    : 08/20/2019 
+-----Events-----
+ Country : Netherlands 
+City    : Amsterdam 
+Name    : Ziggo Dome 
+Date    : 08/23/2019 
+-----Events-----
+ Country : France 
+City    : Paris 
+Name    : AccorHotels Arena 
+Date    : 08/27/2019 
+-----Events-----
+ Country : Netherlands 
+City    : Amsterdam 
+Name    : Ziggo Dome 
+Date    : 08/24/2019 
+-----Events-----
+ Country : France 
+City    : Paris 
+Name    : AccorHotels Arena 
+Date    : 08/28/2019 
+-----Events-----
+ Country : Belgium 
+City    : Antwerpen 
+Name    : Sportpaleis Antwerpen 
+Date    : 08/30/2019 
+-----Events-----
+ Country : Austria 
+City    : Vienna 
+Name    : Stadthalle 
+Date    : 09/03/2019 
+-----Events-----
+ Country : Germany 
+City    : Köln 
+Name    : Lanxess Arena 
+Date    : 09/01/2019 
+-----Events-----
+ Country : Germany 
+City    : Hamburg 
+Name    : Barclaycard Arena 
+Date    : 09/05/2019 
+-----Events-----
+ Country : Czech Republic 
+City    : Praha 9 
+Name    : O2 arena 
+Date    : 09/08/2019 
+-----Events-----
+ Country : Poland 
+City    : Kraków 
+Name    : Tauron Arena 
+Date    : 09/09/2019 
+-----Events-----
+ Country : Netherlands 
+City    : Amsterdam 
+Name    : Ziggo Dome 
+Date    : 09/11/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : Birmingham 
+Name    : Arena Birmingham 
+Date    : 09/14/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : Birmingham 
+Name    : Arena Birmingham 
+Date    : 09/15/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : Glasgow 
+Name    : The SSE Hydro 
+Date    : 09/17/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : Sheffield 
+Name    : FlyDSA Arena 
+Date    : 09/19/2019 
+-----Events-----
+ Country : Ireland 
+City    : Dublin 
+Name    : 3Arena 
+Date    : 09/22/2019 
+-----Events-----
+ Country : Ireland 
+City    : Dublin 
+Name    : 3Arena 
+Date    : 09/23/2019 
+-----Events-----
+ Country : Ireland 
+City    : Dublin 
+Name    : 3Arena 
+Date    : 09/25/2019 
+-----Events-----
+ Country : Germany 
+City    : Hamburg 
+Name    : Barclaycard Arena 
+Date    : 09/28/2019 
+-----Events-----
+ Country : Denmark 
+City    : Copenhagen 
+Name    : Royal Arena 
+Date    : 10/01/2019 
+-----Events-----
+ Country : Norway 
+City    : Oslo 
+Name    : Telenor Arena 
+Date    : 10/03/2019 
+-----Events-----
+ Country : Finland 
+City    : Hki 
+Name    : Hartwall Arena 
+Date    : 10/05/2019 
+-----Events-----
+ Country : Sweden 
+City    : Stockholm 
+Name    : Ericsson Globe 
+Date    : 10/07/2019 
+-----Events-----
+ Country : Germany 
+City    : Berlin 
+Name    : Mercedes-Benz-Arena 
+Date    : 10/10/2019 
+-----Events-----
+ Country : Switzerland 
+City    : Zürich 
+Name    : Hallenstadion 
+Date    : 10/13/2019 
+-----Events-----
+ Country : United States 
+City    : Tampa 
+Name    : Amalie Arena 
+Date    : 05/28/2019 
+
+----Ariana Grande Events ---
+
+-----Events-----
+ Country : United States 
+City    : Phoenix 
+Name    : Talking Stick Resort Arena 
+Date    : 05/14/2019 
+-----Events-----
+ Country : United States 
+City    : San Antonio 
+Name    : AT&T Center 
+Date    : 05/17/2019 
+-----Events-----
+ Country : United States 
+City    : Houston 
+Name    : Toyota Center 
+Date    : 05/19/2019 
+-----Events-----
+ Country : United States 
+City    : Dallas 
+Name    : American Airlines Center 
+Date    : 05/21/2019 
+-----Events-----
+ Country : United States 
+City    : Oklahoma City 
+Name    : Chesapeake Energy Arena 
+Date    : 05/23/2019 
+-----Events-----
+ Country : United States 
+City    : New Orleans 
+Name    : Smoothie King Center 
+Date    : 05/25/2019 
+-----Events-----
+ Country : United States 
+City    : Tampa 
+Name    : Amalie Arena 
+Date    : 05/28/2019 
+-----Events-----
+ Country : United States 
+City    : Orlando 
+Name    : Amway Center 
+Date    : 05/29/2019 
+-----Events-----
+ Country : United States 
+City    : Miami 
+Name    : American Airlines Arena 
+Date    : 05/31/2019 
+-----Events-----
+ Country : United States 
+City    : Miami 
+Name    : American Airlines Arena 
+Date    : 06/01/2019 
+-----Events-----
+ Country : United States 
+City    : Chicago 
+Name    : United Center 
+Date    : 06/04/2019 
+-----Events-----
+ Country : United States 
+City    : Nashville 
+Name    : Bridgestone Arena 
+Date    : 06/07/2019 
+-----Events-----
+ Country : United States 
+City    : Chicago 
+Name    : United Center 
+Date    : 06/05/2019 
+-----Events-----
+ Country : United States 
+City    : Atlanta 
+Name    : State Farm Arena 
+Date    : 06/08/2019 
+-----Events-----
+ Country : United States 
+City    : Pittsburgh 
+Name    : PPG Paints Arena 
+Date    : 06/12/2019 
+-----Events-----
+ Country : United States 
+City    : Brooklyn 
+Name    : Barclays Center 
+Date    : 06/15/2019 
+-----Events-----
+ Country : United States 
+City    : Brooklyn 
+Name    : Barclays Center 
+Date    : 06/14/2019 
+-----Events-----
+ Country : United States 
+City    : Charlotte 
+Name    : Spectrum Center 
+Date    : 06/10/2019 
+-----Events-----
+ Country : United States 
+City    : New York 
+Name    : Madison Square Garden 
+Date    : 06/18/2019 
+-----Events-----
+ Country : United States 
+City    : Boston 
+Name    : TD Garden 
+Date    : 06/22/2019 
+-----Events-----
+ Country : United States 
+City    : New York 
+Name    : Madison Square Garden 
+Date    : 06/19/2019 
+-----Events-----
+ Country : United States 
+City    : Washington 
+Name    : Capital One Arena 
+Date    : 06/21/2019 
+-----Events-----
+ Country : United States 
+City    : Philadelphia 
+Name    : Wells Fargo Center 
+Date    : 06/24/2019 
+-----Events-----
+ Country : Canada 
+City    : Toronto 
+Name    : Scotiabank Arena 
+Date    : 06/26/2019 
+-----Events-----
+ Country : United States 
+City    : Indianapolis 
+Name    : Bankers Life Fieldhouse 
+Date    : 06/29/2019 
+-----Events-----
+ Country : United States 
+City    : Columbus 
+Name    : The Schottenstein Center 
+Date    : 07/01/2019 
+-----Events-----
+ Country : United States 
+City    : Milwaukee 
+Name    : Fiserv Forum 
+Date    : 07/05/2019 
+-----Events-----
+ Country : United States 
+City    : St. Louis 
+Name    : Enterprise Center 
+Date    : 07/06/2019 
+-----Events-----
+ Country : United States 
+City    : St Paul 
+Name    : Xcel Energy Center 
+Date    : 07/08/2019 
+-----Events-----
+ Country : United States 
+City    : Salt Lake City 
+Name    : Vivint Smart Home Arena 
+Date    : 07/13/2019 
+-----Events-----
+ Country : United States 
+City    : Denver 
+Name    : Pepsi Center 
+Date    : 07/11/2019 
+-----Events-----
+ Country : United States 
+City    : Chicago 
+Name    : Lollapalooza 
+Date    : 08/04/2019 
+-----Events-----
+ Country : United States 
+City    : Chicago 
+Name    : Grant Park 
+Date    : 08/03/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : London 
+Name    : The O2 Arena 
+Date    : 08/17/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : London 
+Name    : The O2 Arena 
+Date    : 08/20/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : London 
+Name    : The O2 
+Date    : 08/19/2019 
+-----Events-----
+ Country : Netherlands 
+City    : Amsterdam 
+Name    : Ziggo Dome 
+Date    : 08/23/2019 
+-----Events-----
+ Country : France 
+City    : Paris 
+Name    : AccorHotels Arena 
+Date    : 08/27/2019 
+-----Events-----
+ Country : Belgium 
+City    : Antwerpen 
+Name    : Sportpaleis Antwerpen 
+Date    : 08/30/2019 
+-----Events-----
+ Country : Netherlands 
+City    : Amsterdam 
+Name    : Ziggo Dome 
+Date    : 08/24/2019 
+-----Events-----
+ Country : Austria 
+City    : Vienna 
+Name    : Stadthalle 
+Date    : 09/03/2019 
+-----Events-----
+ Country : France 
+City    : Paris 
+Name    : AccorHotels Arena 
+Date    : 08/28/2019 
+-----Events-----
+ Country : Germany 
+City    : Hamburg 
+Name    : Barclaycard Arena 
+Date    : 09/05/2019 
+-----Events-----
+ Country : Germany 
+City    : Köln 
+Name    : Lanxess Arena 
+Date    : 09/01/2019 
+-----Events-----
+ Country : Czech Republic 
+City    : Praha 9 
+Name    : O2 arena 
+Date    : 09/08/2019 
+-----Events-----
+ Country : Poland 
+City    : Kraków 
+Name    : Tauron Arena 
+Date    : 09/09/2019 
+-----Events-----
+ Country : Netherlands 
+City    : Amsterdam 
+Name    : Ziggo Dome 
+Date    : 09/11/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : Birmingham 
+Name    : Arena Birmingham 
+Date    : 09/14/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : Birmingham 
+Name    : Arena Birmingham 
+Date    : 09/15/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : Glasgow 
+Name    : The SSE Hydro 
+Date    : 09/17/2019 
+-----Events-----
+ Country : United Kingdom 
+City    : Sheffield 
+Name    : FlyDSA Arena 
+Date    : 09/19/2019 
+-----Events-----
+ Country : Ireland 
+City    : Dublin 
+Name    : 3Arena 
+Date    : 09/22/2019 
+-----Events-----
+ Country : Ireland 
+City    : Dublin 
+Name    : 3Arena 
+Date    : 09/25/2019 
+-----Events-----
+ Country : Ireland 
+City    : Dublin 
+Name    : 3Arena 
+Date    : 09/23/2019 
+-----Events-----
+ Country : Germany 
+City    : Hamburg 
+Name    : Barclaycard Arena 
+Date    : 09/28/2019 
+-----Events-----
+ Country : Denmark 
+City    : Copenhagen 
+Name    : Royal Arena 
+Date    : 10/01/2019 
+-----Events-----
+ Country : Finland 
+City    : Hki 
+Name    : Hartwall Arena 
+Date    : 10/05/2019 
+-----Events-----
+ Country : Sweden 
+City    : Stockholm 
+Name    : Ericsson Globe 
+Date    : 10/07/2019 
+-----Events-----
+ Country : Germany 
+City    : Berlin 
+Name    : Mercedes-Benz-Arena 
+Date    : 10/10/2019 
+-----Events-----
+ Country : Switzerland 
+City    : Zürich 
+Name    : Hallenstadion 
+Date    : 10/13/2019 
+-----Events-----
+ Country : Norway 
+City    : Oslo 
+Name    : Telenor Arena 
+Date    : 10/03/2019 

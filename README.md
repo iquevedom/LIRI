@@ -15,16 +15,13 @@ The package.json lists dependent node packages. You must to run "npm init" in yo
 
 1. To use `axios` package to the Bands in Town and OMDB APIs the project includes the appropriate credentials.
    
-2. To get access to the Spotify API you must to sign up as a developer to generate the neccesary credentials visiting <https://developer.spotify.com/my-applications/#!/>. Generate a **client id** and **client secret**
+2. To get access to the Spotify API you must to sign up as a developer to generate the neccesary credentials visiting <https://developer.spotify.com/my-applications/#!/>. Generate a **client id** and **client secret**. 
    Navigate to <https://developer.spotify.com/my-applications/#!/applications/create> to register a new application to be used with the Spotify API.
-   Create a .env file containing this instruccions (replace id and secret):
+   Create a `.env` file containing this instruccions (replace id and secret):
 
-// # Spotify API keys
+SPOTIFY_ID=your-spotify-id          ---> _client id_
 
-SPOTIFY_ID=your-spotify-id          ---> **client id**
-SPOTIFY_SECRET=your-spotify-secret  ---> **client secret**
-
-//
+SPOTIFY_SECRET=your-spotify-secret  ---> _client secret_
 
 ## Get Started
 
@@ -36,11 +33,14 @@ SPOTIFY_SECRET=your-spotify-secret  ---> **client secret**
 
 ![](Main_liri_menu.gif)
    
-2. You must to enter a string describing you choice
-   
-3. The results will be display in your terminal
-   
-4. A log with all the results will be write-append in a log.txt file
+2. You must to enter a string describing and acording with your choice,
+   then the information will be displayed in your terminal.
+
+![](Venue_demo.gif)
+      
+3. A log with all the results will be write-append in a log.txt file
+
+![](Write_log_demo.gif)
 
 ## Technologies used to build app
 
