@@ -11,7 +11,7 @@
 
 The package.json lists dependent node packages. You must to run "npm init" in your terminal. This will instal third party npm packages and saving their version number.
 
-## Get Started
+## Environment
 
 1. To use `axios` package to the Bands in Town and OMDB APIs the project includes the appropriate credentials.
    
